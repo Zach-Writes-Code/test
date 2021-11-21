@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "next",
+    "prettier",
+    "plugin:import/recommended",
+    "plugin:cypress/recommended",
+    "plugin:react-redux/recommended"
+  ],
+  "rules": {
+    "@next/next/no-css-tags": "off"
+  },
+  "settings": {
+    "import/ignore": ["node_modules"]
+  }
+}
